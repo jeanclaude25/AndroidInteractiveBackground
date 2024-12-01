@@ -1,3 +1,22 @@
+//From BigWings https://www.shadertoy.com/view/ltffzl
+// Heartfelt - by Martijn Steinrucken aka BigWings - 2017
+// Email:countfrolic@gmail.com Twitter:@The_ArtOfCode
+// License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+// I revisited the rain effect I did for another shader. This one is better in multiple ways:
+// 1. The glass gets foggy.
+// 2. Drops cut trails in the fog on the glass.
+// 3. The amount of rain is adjustable (with Mouse.y)
+
+// To have full control over the rain, uncomment the HAS_HEART define 
+
+// A video of the effect can be found here:
+// https://www.youtube.com/watch?v=uiF5Tlw22PI&feature=youtu.be
+
+// Music - Alone In The Dark - Vadim Kiselev
+// https://soundcloud.com/ahmed-gado-1/sad-piano-alone-in-the-dark
+// Rain sounds:
+// https://soundcloud.com/elirtmusic/sleeping-sound-rain-and-thunder-1-hours
 #ifdef GL_FRAGMENT_PRECISION_HIGH
 precision highp float;
 #else
