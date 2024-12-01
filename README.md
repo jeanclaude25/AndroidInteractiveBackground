@@ -8,6 +8,57 @@ Vous pouvez télécharger cet excellent programme de Markus Fisch sur le PlaySto
 </a>
 
 Vous trouverez ici quelque shaders que vous pouvez copiez sur votre téléphone dans l'éditeur.
+Selon votre telephone, vous devrez baisser la résolution du rendu.
+
+## NeonLove
+<a href="./NeonLove.glsl">
+<img src="./design/NeonLove.jpg" alt="Design preview NeonLove" width="400"/>
+</a>
+Devient plus ou moins gros selon votre niveau de batterie<br/>
+Si vous le chargez il s'illuminera<br/>
+Réagit à vos doigts<br/>
+
+## Tunnel
+<a href="./tunnel.glsl">
+<img src="./design/tunnel.jpg" alt="Design preview tunnel" width="400"/>
+</a>
+Tunnel<br/>
+
+## Diamond1
+<a href="./Diamond1.glsl">
+<img src="./design/diamond1.jpg" alt="Design preview Diamond1" width="400"/>
+</a>
+Un diamant controllable avec les doigts, les reflections proviennent de la camera frontale<br/>
+
+## Tunnel
+<a href="./ElectroCardioGram.glsl">
+<img src="./design/electro.jpg" alt="Design preview Electro" width="400"/>
+</a>
+Electro<br/>
+
+## Diamond2
+<a href="./Diamond2.glsl">
+<img src="./design/diamond2.jpg" alt="Design preview Diamond2" width="400"/>
+</a>
+Un diamant, les reflections proviennent de la camera frontale<br/>
+
+## CubicTransform
+<a href="./cubicTransform.glsl">
+<img src="./design/cubicTransform.jpg" alt="Design preview CubicTransform" width="400"/>
+</a>
+Somes cubes<br/>
+
+## ChristmasTree
+<a href="./ChristmasTree.glsl">
+<img src="./design/christmasTree.jpg" alt="Design preview ChristmasTree" width="400"/>
+</a>
+C'est noël, réagit à votre doigt<br/>
+
+## 3DCube
+<a href="./3DCube.glsl">
+<img src="./design/3dCube.jpg" alt="Design preview 3Dcube" width="400"/>
+</a>
+Un cube 3d qui se tourne avec l'inclinaison ou la rotation de votre telephone<br/>
 
 ## CineShader
 <a href="./cine.glsl">
