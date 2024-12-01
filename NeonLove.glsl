@@ -314,14 +314,14 @@ void main(){
 
 
     // Tone mapping
-		col = (1.0 - exp(-col))abs(sin(ftime.3)+1.5);
+		col = (1.0 - exp(-col))*abs(sin(ftime*.3)+1.5);
 
     //Gamma
     float gamma = 1.5;
 		col = pow(col, vec3(1.0 / gamma));
     col *= (1.5 * abs(sin(ftime * (5. *(1.- batteryIndice))))+.5) * batteryIndice;
 
-		/LIGHTNING/
+		/*LIGHTNING*/
     float endP = (-.07 * battery + .4556)+ .5;
 		vec2 endPos = vec2(.5, endP);
     vec3 IsCharging = float(powerConnected) * Lightning(uv, vec2(.5, .0), endPos);
