@@ -64,7 +64,6 @@ Un cube 3d qui se tourne avec l'inclinaison ou la rotation de votre telephone<br
 <a href="./cine.glsl">
 <img src="./design/cine.jpg" alt="Design preview CineShader" width="400"/>
 </a><br/>
-Le crédit de ce shader va normalement à une personne sur Shadertoy mais je ne le retrouve plus pour le noter ici.
 Dès que je le retrouve je le crédite.<br/>
 
 ## circleTouch
